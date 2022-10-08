@@ -1,14 +1,26 @@
-.root{
-
-}
-
 .titulo{
     font-family: Liberation Serif;
     height: 20px;
+    margin: grid;
+    text-align: center;
 }
+
+.estudiante{
+    margin: 10px;
+    float: right;
+    display: grid;
+    background-color: coral;
+}
+
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    height: 12px;
+    margin: 12px;
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
 }
 
+.logos{
+    justify-content: right;
+    display: grid;
+}
